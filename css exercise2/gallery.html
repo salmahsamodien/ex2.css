@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Explore the Gallery</h1>
+        <p>Discover beautiful places and photography</p>
+    </header>
+
+    <section class="gallery-container">
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="landscapes">Landscapes</button>
+            <button class="filter-btn" data-filter="portraits">Portraits</button>
+            <button class="filter-btn" data-filter="architecture">Architecture</button>
+        </div>
+
+        <div class="gallery-grid">
+
+            <!-- Landscape 1 -->
+            <div class="gallery-card" data-category="landscapes">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=600&q=80" alt="Mountain landscape">
+                <div class="card-info">
+                    <h3>Mountain Escape</h3>
+                    <span class="category-tag">Landscapes</span>
+                </div>
+                <div class="overlay">
+                    <p>A peaceful mountain view surrounded by nature.</p>
+                </div>
+            </div>
+
+            <!-- Landscape 2 -->
+            <div class="gallery-card" data-category="landscapes">
+                <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=600&q=80" alt="Lake landscape">
+                <div class="card-info">
+                    <h3>Still Waters</h3>
+                    <span class="category-tag">Landscapes</span>
+                </div>
+                <div class="overlay">
+                    <p>A beautiful reflection across a quiet lake.</p>
+                </div>
+            </div>
+
+            <!-- Landscape 3 -->
+            <div class="gallery-card" data-category="landscapes">
+                <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=600&q=80" alt="Forest">
+                <div class="card-info">
+                    <h3>Into the Forest</h3>
+                    <span class="category-tag">Landscapes</span>
+                </div>
+                <div class="overlay">
+                    <p>Green trees and sunlight in a quiet forest.</p>
+                </div>
+            </div>
+
+            <!-- Landscape 4 -->
+            <div class="gallery-card" data-category="landscapes">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80" alt="Mountain peaks">
+                <div class="card-info">
+                    <h3>Golden Peaks</h3>
+                    <span class="category-tag">Landscapes</span>
+                </div>
+                <div class="overlay">
+                    <p>Mountain peaks standing above the clouds.</p>
+                </div>
+            </div>
+
+            <!-- Portrait 1 -->
+            <div class="gallery-card" data-category="portraits">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80" alt="Portrait of a woman">
+                <div class="card-info">
+                    <h3>Natural Beauty</h3>
+                    <span class="category-tag">Portraits</span>
+                </div>
+                <div class="overlay">
+                    <p>A portrait capturing a natural moment.</p>
+                </div>
+            </div>
+
+            <!-- Portrait 2 -->
+            <div class="gallery-card" data-category="portraits">
+                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=80" alt="Portrait of a man">
+                <div class="card-info">
+                    <h3>Expressions</h3>
+                    <span class="category-tag">Portraits</span>
+                </div>
+                <div class="overlay">
+                    <p>Personality captured through photography.</p>
+                </div>
+            </div>
+
+            <!-- Portrait 3 -->
+            <div class="gallery-card" data-category="portraits">
+                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=80" alt="Portrait photography">
+                <div class="card-info">
+                    <h3>Soft Light</h3>
+                    <span class="category-tag">Portraits</span>
+                </div>
+                <div class="overlay">
+                    <p>Soft lighting creates a calm atmosphere.</p>
+                </div>
+            </div>
+
+            <!-- Portrait 4 -->
+            <div class="gallery-card" data-category="portraits">
+                <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=600&q=80" alt="Portrait">
+                <div class="card-info">
+                    <h3>Captured Moments</h3>
+                    <span class="category-tag">Portraits</span>
+                </div>
+                <div class="overlay">
+                    <p>A simple moment captured in time.</p>
+                </div>
+            </div>
+
+            <!-- Architecture 1 -->
+            <div class="gallery-card" data-category="architecture">
+                <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=600&q=80" alt="City architecture">
+                <div class="card-info">
+                    <h3>City Lines</h3>
+                    <span class="category-tag">Architecture</span>
+                </div>
+                <div class="overlay">
+                    <p>Modern structures rising above the city.</p>
+                </div>
+            </div>
+
+            <!-- Architecture 2 -->
+            <div class="gallery-card" data-category="architecture">
+                <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=600&q=80" alt="Modern building">
+                <div class="card-info">
+                    <h3>Modern Design</h3>
+                    <span class="category-tag">Architecture</span>
+                </div>
+                <div class="overlay">
+                    <p>Clean lines and contemporary design.</p>
+                </div>
+            </div>
+
+            <!-- Architecture 3 -->
+            <div class="gallery-card" data-category="architecture">
+                <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=600&q=80" alt="Building design">
+                <div class="card-info">
+                    <h3>Urban Spaces</h3>
+                    <span class="category-tag">Architecture</span>
+                </div>
+                <div class="overlay">
+                    <p>Architecture shaping our everyday spaces.</p>
+                </div>
+            </div>
+
+            <!-- Architecture 4 -->
+            <div class="gallery-card" data-category="architecture">
+                <img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=600&q=80" alt="Architecture">
+                <div class="card-info">
+                    <h3>Structure</h3>
+                    <span class="category-tag">Architecture</span>
+                </div>
+                <div class="overlay">
+                    <p>Creative design and interesting structures.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        const buttons = document.querySelectorAll(".filter-btn");
+        const cards = document.querySelectorAll(".gallery-card");
+
+        buttons.forEach(button => {
+            button.addEventListener("click", () => {
+
+                buttons.forEach(btn => btn.classList.remove("active"));
+                button.classList.add("active");
+
+                const filter = button.dataset.filter;
+
+                cards.forEach(card => {
+                    if (filter === "all" || card.dataset.category === filter) {
+                        card.classList.remove("hidden");
+                    } else {
+                        card.classList.add("hidden");
+                    }
+                });
+
+            });
+        });
+    </script>
+
+</body>
+</html>
